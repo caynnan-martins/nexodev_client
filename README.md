@@ -19,16 +19,16 @@
 ## Como Começar
 
 1. **Clone o Repositório**:
-   ```bash
+   ``bash
    git clone https://github.com/caynnan-martins/nome-do-projeto.git
-```
+``
 2. **Instale as Dependências:**
 
-```bash
+``bash
 cd nome-do-projeto
-npm install```
+npm install``
 
 3. **Inicie o Servidor:**
-```bash
+``bash
 npm start
-```
+``
