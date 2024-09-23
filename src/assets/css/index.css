@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --color-primary: #213162;
+  --color-secondary: #0D1117;
+}
+
+body{
+  background-color: var(--color-secondary);
+}
+
+.mark{
+  font-weight: bold;
+  color: var(--color-primary);
+}
+.primary-b{
+  border-color: var(--color-primary);
+}
+.primary-c{
+  border: 2px solid var(--color-primary);
+}
+.editable{
+  padding-bottom: 10px;
+}
+.editable img{
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
+.load{
+  animation: load .6s linear infinite;
+}
+
+@keyframes load {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.ab-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
+.primary{
+  color: var(--color-primary);
+}
